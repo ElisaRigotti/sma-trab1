@@ -203,5 +203,5 @@ def format_results(res):
 
 if __name__ == "__main__":
     print("Executando simulacao com 100.000 numeros aleatorios...\n")
-    resultado = run_simulation(seed=None)
+    resultado = run_simulation(seed=42)
     format_results(resultado)
